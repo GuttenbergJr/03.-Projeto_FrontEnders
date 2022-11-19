@@ -31,25 +31,35 @@
     font-size: 25px;
 }
 
+#frontenders {
+    font-size: 39px;
+    text-decoration: none;
+    color: black;
+
+}
+
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-left: 100px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 26px;
+}
+
+.paginas:hover {
+    color: #2f2e41;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
     text-align: center;
     border-top: 2px solid black;
-    left:0;
+    left: 0;
     bottom: 0;
     height: 80px;
     width: 100%;
@@ -58,7 +68,6 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-top: 5px;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -73,3 +82,107 @@ img {
 }
 
 /* aqui termina o rodade */
+
+
+
+/* Inicio do form */
+
+/* seção da imagem e do texto */
+
+main{
+    background-color: black;
+}
+#container1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+
+}
+
+
+#fundoImg {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+#imagem {
+    height: 550px;
+    width: 550px;
+}
+
+#texto{
+     text-indent: 50px;
+}
+
+
+#texto,
+h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#texto,
+h2 {
+    font-size: 23px;
+}
+
+/* fim seção 1*/
+
+
+
+/* inicio da seção do formulário*/
+
+#container2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#textoForm {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+
+
+#form {
+    border-top-left-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+
+::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+form,
+a {
+    color: black;
+}
