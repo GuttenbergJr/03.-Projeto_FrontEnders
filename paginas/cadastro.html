@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
 
 </head>
 
@@ -17,19 +17,19 @@
 
         <div id="logo">
 
-            <a href="/index.html"><strong>FrontEnders</strong></a> 
+            <a href="/index.html" id="frontenders"><strong>FrontEnders</strong></a>
 
-            <img src="/img/images.png">
+            <img src="/img/images.png" id="imgFront">
 
         </div>
 
 
         <nav id="navegacao">
 
-           <strong><a class="paginas" href="/paginas/contato.html">CONTATO</a></strong> 
-           <strong><a class="paginas" href="/paginas/cadastro.html">CADASTRO</a></strong>
-           <strong><a class="paginas" href="/paginas/servicos.html">SERVIÇOS</a></strong> 
-           <strong><a class="paginas login" href="/paginas/login.html">LOGIN</a></strong>
+            <strong><a class="paginas" href="/paginas/contato.html">CONTATO</a></strong>
+            <strong><a class="paginas" href="/paginas/cadastro.html">CADASTRO</a></strong>
+            <strong><a class="paginas" href="/paginas/servicos.html">SERVIÇOS</a></strong>
+            <strong><a class="paginas login" href="/paginas/login.html">LOGIN</a></strong>
 
         </nav>
 
@@ -42,9 +42,177 @@
 
 
 
+        <div id="container1">
+
+
+            <div id="fundoImg">
+
+                <img src="/img/img-cadastro.svg" alt="" id="imagem">
+
+            </div>
+
+            <div id="texto">
+
+                <h1>Garante seu Serviço!</h1>
+
+                <h2>Fazendo a pré-venda, consiga até 10% de desconto em todos as compras.</h2>
+
+            </div>
+
+        </div>
+
+
+        <div id="container2">
+
+            <div id="textoForm">
+
+                <h3>Serviço desejado</h3>
+
+                <div>
+                    
+                    <input type="radio" class="inputRadio" name="servico" checked> Premium
+                    <input type="radio" class="inputRadio" name="servico"> Gold
+                    <input type="radio" class="inputRadio" name="servico"> Deluxe
+
+                </div>
+
+            </div>
+
+
+            <div id="form">
+
+
+                <form>
+
+                    <h1>Faça a sua compra!</h1>
+
+                    <div class="bordaDiv">
+
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" class="inputText" required
+                            placeholder="Insira seu nome">
+
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                            title="Escreva um E-mail válido!" id="email" class="inputText" required
+                            placeholder="Insira seu E-mail">
+
+                    </div>
 
 
 
+                    <div class="bordaDiv">
+
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" pattern=".{6,}"
+                            title="A senha deve conter 6 ou mais caracteres!" id="senha" class="inputText" required
+                            placeholder="Insira sua senha">
+
+                        <label for="senha2">Confirmar senha:</label>
+                        <input type="password" name="senha2" id="recpsenha" class="inputText" required
+                            placeholder="Confirme sua senha">
+
+                    </div>
+
+
+
+                    <div class="bordaDiv">
+
+                        <label for="rg">RG:</label>
+                        <input type="text" name="rg" id="rg" class="inputText" required placeholder="Insira seu RG">
+
+
+                        <label for="cep">CEP:</label>
+                        <input type="text" name="cep" pattern="\d{5}-?\d{3}" id="cep" class="inputText" required
+                            placeholder="Insira seu CEP">
+
+                    </div>
+
+
+
+                    <div class="bordaDiv">
+
+                        <label for="estado">Estado:</label>
+                        <input type="text" class="inputText" name="estado">
+
+
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" class="inputText" name="cidade">
+
+                    </div>
+
+
+
+                    <div class="bordaDiv">
+
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" class="inputText" name="bairro">
+
+
+
+                        <label for="rua">Rua:</label>
+                        <input type="text" class="inputText" name="rua">
+
+                    </div>
+
+
+
+                    <div class="bordaDiv">
+
+                        <label for="numero">Número:</label>
+                        <input type="text" class="inputText" name="numero">
+
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" class="inputText" name="complemento">
+
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="servico">Serviço desejado:</label>
+                        <input type="radio" class="inputRadio" name="servico" checked> Premium
+                        <input type="radio" class="inputRadio" name="servico"> Gold
+                        <input type="radio" class="inputRadio" name="servico"> Deluxe
+
+                    </div>
+
+                    <div class="bordaDiv">
+
+                        <label for="pagamento">Forma de pagamento:</label>
+                        <input type="radio" class="inputRadio" name="pagamento" checked> Boleto
+                        <input type="radio" class="inputRadio" name="pagamento"> Cartão de crédito
+                        <input type="radio" class="inputRadio" name="pagamento"> PIX
+
+                    </div>
+
+                    <div class="bordaDiv">
+
+                        <input type="checkbox" name="termos" required> <a href="" name="termos">Li e aceito os termos e
+                            condições</a>
+
+                    </div>
+
+
+                    <div class="bordaDiv">
+                        <button id="botao">Concluir pagamento</button>
+                    </div>
+
+
+
+                </form>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
 
 
 
@@ -61,7 +229,9 @@
     <!-- rodape do site, com links para contato -->
     <footer id="rodape">
 
-       <strong><h2>Siga-nos</h2></strong> 
+        <strong>
+            <h2>Siga-nos</h2>
+        </strong>
 
         <div id="icones">
 
