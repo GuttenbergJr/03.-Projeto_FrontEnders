@@ -3,11 +3,13 @@
 
 <head>
 
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/login.css">
 
 </head>
 
@@ -37,23 +39,58 @@
     </header>
 
 
+<!--Formulario de login-->
 
-    <main>
+<main>
+    <div class='container'>
+        <div class='card'>
+
+            <h2 class="titulo"> Login </h2>
+            <br><br>
+            <p class="subtitulo">Digite seu e-mail e sua senha para obter acesso.</p>
+
+            
+
+            <div class='label-float'>
+                <input type="text" id="inUsuario" placeholder=" " required>
+                <label class="form-label" for="typeEmailX">Usuario</label>
+            </div>
+
+            <div class='label-float'>
+                <input type="password" id="inSenha" placeholder=" " required>
+                <label class="form-label" for="typePasswordX">Senha</label>
+            </div>
 
 
+            <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!"
+                id="outResposta"></a></p>
 
+                <br><br>
 
+            <p class="ajuda">Esqueceu sua senha?
 
+                <a href="/paginas/senhaRecupe.html"> clique aqui para obter ajuda.</a>
 
+            </p>
 
+            <button class='justify-center' type="submit"
+                id="btEntrar">Entrar</button>
 
+        </div>
+    </div>
 
+<script src="/js/login.js"></script>
+</script>
+</main>
+    
 
-    </main>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-
+<!-- final login -->
 
 
 
