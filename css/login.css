@@ -9,6 +9,9 @@
 /*aqui começa o cabelho  */
 
 
+/*aqui começa o cabelho  */
+
+
 /* movendo meu header */
 #cabecalho {
     margin-top: 10px;
@@ -31,25 +34,35 @@
     font-size: 25px;
 }
 
+#frontenders {
+    font-size: 39px;
+    text-decoration: none;
+    color: black;
+
+}
+
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-left: 100px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 26px;
+}
+
+.paginas:hover {
+    color: #2f2e41;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
     text-align: center;
     border-top: 2px solid black;
-    left:0;
+    left: 0;
     bottom: 0;
     height: 80px;
     width: 100%;
@@ -58,7 +71,6 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-top: 5px;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
