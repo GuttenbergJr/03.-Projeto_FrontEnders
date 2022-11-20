@@ -52,7 +52,8 @@
 }
 
 .paginas:hover {
-    color: #2f2e41;
+    color: black;
+    text-decoration: underline;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
@@ -66,8 +67,8 @@
 }
 
 /* estilização do h2 */
-#rodape,
-h2 {
+#h2Rodape{
+    color: black;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -100,7 +101,7 @@ img {
     background-color: #ffffff80;
     padding: 30px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px #00000060;
+    box-shadow: 3px 3px 1px 0px black;
 }
 
 h1 {
@@ -188,6 +189,11 @@ button:hover{
 
 .titulo {
     text-align: center;
+}
+
+#ajuda{
+    color: black;
+    text-decoration: underline;
 }
 
 /* final do css form */
