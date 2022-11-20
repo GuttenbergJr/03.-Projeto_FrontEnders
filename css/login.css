@@ -55,7 +55,7 @@
 }
 
 .paginas:hover {
-    color: #2f2e41;
+    text-decoration: underline;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
@@ -86,6 +86,9 @@ img {
 
 /* aqui termina o rodade */
 
+
+
+
 /* aqui começa o css da pagina de login */
 
 .container {
@@ -95,11 +98,18 @@ img {
     margin-top: 100px;
 }
 
+
+#imgLogin{
+    height: 400px;
+    width: 400px;
+}
+
 .card {
+    margin-left: 50px;
     background-color: #ffffff80;
     padding: 30px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px #00000060;
+    box-shadow: 3px 3px 1px 0px black;
     width: 400px;
 }
 
@@ -184,7 +194,8 @@ button:hover{
 }
 
 .titulo{
-
+        
+    font-size: 25px;
     text-align: center;
 
 }
@@ -196,6 +207,10 @@ button:hover{
 
 .ajuda {
     text-align: center;
+}
+
+.ajuda, a{
+    color: black;
 }
 
 /* final do css form */
