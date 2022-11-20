@@ -52,7 +52,7 @@
 }
 
 .paginas:hover {
-    color: #2f2e41;
+    text-decoration: underline;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
@@ -92,6 +92,7 @@ img {
 main{
     background-color: black;
 }
+
 #container1 {
     background-color: black;
     color: white;
