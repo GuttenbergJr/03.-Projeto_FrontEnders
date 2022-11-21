@@ -17,7 +17,7 @@ function validaEmail(e) {
 
         console.log("Errado")
         outResposta.append(resposta);
-        resposta.textContent += "Usuário Incorreto. " + "\n";
+        resposta.textContent += "Email incorreto. " + "\n";
         resposta.style.color = "red";
         resposta.style.fontSize = "15px";
     }
@@ -26,7 +26,7 @@ function validaEmail(e) {
             console.log("correto");
             outResposta.append(resposta);
 
-            resposta.textContent = "mensagem enviada";
+            resposta.textContent = "Mensagem enviada";
             resposta.style.fontSize = "20px";
             resposta.style.color = "green";
 
