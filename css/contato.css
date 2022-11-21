@@ -31,20 +31,28 @@
     font-size: 25px;
 }
 
+#frontenders {
+    font-size: 39px;
+    text-decoration: none;
+    color: black;
+
+}
+
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-left: 90px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
     font-size: 26px;
-    /* border: solid; */
-    margin-right: 20px;
+}
+
+.paginas:hover {
+    text-decoration: underline;
 }
 
 /* centralizando e prendendo o footer no final da pagina */
@@ -60,7 +68,6 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-top: 5px;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -74,6 +81,7 @@ img {
 
 }
 
+/* aqui termina o rodade */
 
 
 /* container com a imagem e texto */
