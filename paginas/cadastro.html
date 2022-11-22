@@ -86,7 +86,7 @@
 
                         <input type="radio" class="inputRadio" name="pagamento" checked> Boleto
                         <input type="radio" class="inputRadio" name="pagamento"> Cartão de crédito
-                        <input type="radio" class="inputRadio" name="pagamento"> PIX
+                        <input type="radio" class="inputRadio" name="pagamento"> PIX (10% de desconto!)
 
                     </div>
 
@@ -139,11 +139,11 @@
                         <div class="bordaDiv">
 
                             <label for="rg">RG:</label>
-                            <input type="text" name="rg" id="rg" class="inputText" required placeholder="Insira seu RG">
+                            <input type="text" name="rg" id="rg" class="inputText" maxLength="9" required placeholder="Insira seu RG">
 
 
                             <label for="cep">CEP:</label>
-                            <input type="text" name="cep" pattern="\d{5}-?\d{3}" id="cep" class="inputText" required
+                            <input type="text" name="cep" maxLength="8" id="cep" class="inputText" required
                                 placeholder="Insira seu CEP">
 
                         </div>
@@ -153,11 +153,11 @@
                         <div class="bordaDiv">
 
                             <label for="estado">Estado:</label>
-                            <input type="text" class="inputText" name="estado">
+                            <input type="text" class="inputText" id="estado" name="estado">
 
 
                             <label for="cidade">Cidade:</label>
-                            <input type="text" class="inputText" name="cidade">
+                            <input type="text" class="inputText" id="cidade" name="cidade">
 
                         </div>
 
@@ -166,12 +166,12 @@
                         <div class="bordaDiv">
 
                             <label for="bairro">Bairro:</label>
-                            <input type="text" class="inputText" name="bairro">
+                            <input type="text" class="inputText" id="bairro" name="bairro">
 
 
 
                             <label for="rua">Rua:</label>
-                            <input type="text" class="inputText" name="rua">
+                            <input type="text" class="inputText" id="rua" name="rua">
 
                         </div>
 
@@ -180,7 +180,7 @@
                         <div class="bordaDiv">
 
                             <label for="numero">Número:</label>
-                            <input type="text" class="inputText" name="numero">
+                            <input type="text" class="inputText" id="numero" name="numero" required>
 
                             <label for="complemento">Complemento:</label>
                             <input type="text" class="inputText" name="complemento">
@@ -192,7 +192,7 @@
 
                         <div class="bordaDiv">
 
-                            <input type="checkbox" name="termos" class="inputRadio" required> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                            <input type="checkbox" name="termos" class="inputRadio" id="rickAstley" required> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                                 target="_blank" name="termos">Li e aceito os
                                 termos e
                                 condições</a>
@@ -201,7 +201,7 @@
 
 
                         <div id="button">
-                            <button id="botao">Concluir pagamento</button>
+                            <button type="submit" id="botao" onclick="concluirCompra()">Concluir pagamento</button>
                         </div>
 
 
@@ -258,7 +258,8 @@
 
 
     </footer>
-
+         
+    <script src="/js/cadastro.js"></script>
 </body>
 
 </html>
