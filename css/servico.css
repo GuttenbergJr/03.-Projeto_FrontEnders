@@ -24,38 +24,43 @@
 
 /* alinhando a logo */
 #logo {
-    margin-left: 100px;
+    margin-left: 60px;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
-#logo, a{
+/* texto da logo */
+#frontenders {
+    font-size: 39px;
     text-decoration: none;
     color: black;
+
 }
 
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-right: 100px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 26px;
 }
 
+.paginas:hover {
+    text-decoration: underline;
+}
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
     text-align: center;
     border-top: 2px solid black;
-    left:0;
+    left: 0;
     bottom: 0;
     height: 80px;
     width: 100%;
@@ -64,7 +69,6 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-top: 5px;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -80,6 +84,7 @@ img {
 
 /* aqui termina o rodade */
 
+
 /* Background do site */
 .fundo
 { 
@@ -88,6 +93,7 @@ background-image: linear-gradient(to bottom, black, rgb(255, 255, 255));
 /* Personalização do primeiro container */
 .containerTxt
 {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,8 +108,13 @@ background-image: linear-gradient(to bottom, black, rgb(255, 255, 255));
     color: yellow;
     text-align: center;
 }
+.titulo1
+{
+    padding-top: 20px;
+}
 .titulo2
 {
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 /*X Personalização dos titulos X*/
