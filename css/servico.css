@@ -24,11 +24,16 @@
 
 /* alinhando a logo */
 #logo {
-    margin-left: 60px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 40px;
+}
+
+#logo, a{
+    text-decoration: none;
+    color: black;
 }
 
 /* tamanho da imagem */
@@ -39,11 +44,12 @@ img {
 
 /* estilizando os links */
 .paginas {
-    margin-left: 100px;
+    margin-right: 100px;
     text-decoration: none;
     color: black;
     font-size: 25px;
 }
+
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
@@ -73,3 +79,100 @@ img {
 }
 
 /* aqui termina o rodade */
+
+/* Background do site */
+.fundo
+{ 
+background-image: linear-gradient(to bottom, black, rgb(255, 255, 255));
+}
+/* Personalização do primeiro container */
+.containerTxt
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+/*X Personalização do primeiro container X*/
+
+/* Personalização dos titulos */
+.titulo1,
+.titulo2
+{
+    color: yellow;
+    text-align: center;
+}
+.titulo2
+{
+    margin-top: 20px;
+}
+/*X Personalização dos titulos X*/
+
+/* Personalização do texto */
+.texto
+{
+    border: 3px solid black;
+    border-radius: 20px;
+    background: white;
+    padding-left: 10px;
+    width: 50%;   
+}
+/*X Personalização do texto X*/
+
+/* Personalização do segundo container */
+.container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;  
+
+}
+/*X Personalização do segundo container X*/
+
+/* Personalização as caixas de opção de compra */
+.box
+{
+ background: white;
+ margin: 1%;
+ width: 20%;
+ height: 750px;
+ border-radius: 30px;
+ border: 2px solid black;
+ box-shadow: 6px 3px 5px 5px  black;
+}
+.box
+{
+    text-align: center;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+ font-size: 30px;
+}
+/*X Personalização as caixas de opção de compra X*/
+
+/* Personalização os botões de compra */
+button
+{
+   cursor: pointer;
+    width: 60%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: yellow;
+    font-size: 20px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* Personalização os botões de compra */
+
