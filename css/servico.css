@@ -24,30 +24,36 @@
 
 /* alinhando a logo */
 #logo {
-    margin-left: 100px;
+    margin-left: 60px;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
-#logo, a{
+/* texto da logo */
+#frontenders {
+    font-size: 39px;
     text-decoration: none;
     color: black;
+
 }
 
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-right: 100px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 26px;
+}
+
+.paginas:hover {
+    text-decoration: underline;
 }
 
 
@@ -55,7 +61,7 @@ img {
 #rodape {
     text-align: center;
     border-top: 2px solid black;
-    left:0;
+    left: 0;
     bottom: 0;
     height: 80px;
     width: 100%;
@@ -64,7 +70,6 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-top: 5px;
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -79,6 +84,10 @@ img {
 }
 
 /* aqui termina o rodade */
+
+
+
+
 
 /* Personalização do primeiro container */
 .containerTxt
