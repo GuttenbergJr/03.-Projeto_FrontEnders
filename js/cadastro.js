@@ -24,16 +24,16 @@ const pesquisarCep = async () => {
 document.getElementById('cep').addEventListener('focusout', pesquisarCep)
 
 
-const input = document.getElementsByClassName('inputText');
+const input = document.getElementById('rickAstley');
 
-const botao = document.getElementById('botao')
+const botao = document.getElementById('botao');
 
 
 botao.addEventListener('click', concluirCompra);
 
 function concluirCompra() {
 
-    if (input !== "") {
+    if (input.checked) {
 
         alert('Compra Efetuada! Visite seu E-mail para mais detalhes')
 
