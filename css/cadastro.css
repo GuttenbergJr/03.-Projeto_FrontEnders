@@ -252,9 +252,18 @@ button:hover{
     cursor: pointer;
 }
 
+button:active {
+    box-shadow: 0 5px #b1b1b1;
+    transform: translateY(4px);
+  }
 
 h3{
     margin-top: 20px;
     margin-bottom: 20px;
    font-size: 30px;
+}
+
+
+#deluxe{
+    margin-top: 15px;
 }
