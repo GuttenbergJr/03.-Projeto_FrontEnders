@@ -1,2 +1,0 @@
-# trabalhoEmGrupo-modulo2
-
