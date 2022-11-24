@@ -53,11 +53,13 @@ img {
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-top: 2px solid black;
-    left:0;
+    left: 0;
     bottom: 0;
-    height: 80px;
+    height: 120px;
     width: 100%;
 }
 
