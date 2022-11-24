@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+/*#region Cabeçalho e Rodapé*/
+
 * {
     padding: 0%;
     margin: 0%;
@@ -56,28 +58,24 @@
     text-decoration: underline;
 }
 
+
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
     border-top: 2px solid black;
     left: 0;
     bottom: 0;
-    height: 120px;
+    height: 80px;
     width: 100%;
 }
 
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     font-size: 20px;
     font-weight: bold;
-}
 
-#rodape, a{
-    text-decoration: none;
 }
 
 /* tamanho das imagens */
@@ -87,30 +85,21 @@ img {
 
 }
 
-#colaboradores{
-    display: flex;
-}
-
-#linkColaborador{
-    color: black;
-    font-size: 20px;
-    margin-left: 3px;
-}
-
-
 /* aqui termina o rodade */
 
-
+/* #endregion */
 
 
 
 /* Personalização do primeiro container */
 .containerTxt
 {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    background: black; 
 }
 /*X Personalização do primeiro container X*/
 
@@ -118,23 +107,31 @@ img {
 .titulo1,
 .titulo2
 {
+    background: black;
     padding-top: 1%;
-    color: gold;
+    color: white;
     text-align: center;
 }
 .titulo2
 {
+    background: white;
+    color: black;
     margin-top: 20px;
-}
+}   
 /*X Personalização dos titulos X*/
-
+#imgTxt
+{
+    width: 45%;
+    height: 50%;
+}
 /* Personalização do texto */
 .texto
 {
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 20px;
     background: white;
-    padding-left: 10px;
+    text-align: center;
+    padding-left: 0px;
     width: 50%;   
 }
 .texto,
@@ -147,6 +144,7 @@ p
 /* Personalização do segundo container */
 .container
 {
+    background: white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -160,11 +158,10 @@ p
 {
  background: white;
  margin: 1%;
- width: 20%;
- height: 750px;
+ width: 30%;
+ height: 600px;
  border-radius: 30px;
- border: 2px solid black;
- box-shadow: 6px 3px 5px 5px  black;
+ box-shadow: 6px 3px 5px  #cccccc;
 }
 .box
 {
@@ -183,33 +180,34 @@ li
 /* Personalização os botões de compra */
 button
 {
-   cursor: pointer;
+    border: none;
+    cursor: pointer;
     width: 60%;
     height: 50px;
-    border: 2px solid black;
     border-radius: 10px;
-    background: yellow;
+    background: black;
+    color: white;
     font-size: 20px;
 }
 
-button:hover {background-color: #3e8e41}
-
 button:active {
-  background-color: blue;
+  background-color: black;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  
 }
 /* Personalização os botões de compra */
 
-.t1
-{
-    color: blue;
-}
-.t2
-{
-    color: green;
-}
+.t1,
+.t2,
 .t3
+{  
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: black;
+    color: white;
+}
+main
 {
-    color: gold;
+    background: black;
 }
