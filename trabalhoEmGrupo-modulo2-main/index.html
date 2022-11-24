@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div id="logo">
+            <a href="./index.html"><strong>FrontEnders</strong></a>
+            <img src="./img/images.png">
+        </div>
+        <nav id="navegacao">
+            <strong><a class="paginas" href="./paginas/contato.html">CONTATO</a></strong>
+            <strong><a class="paginas" href="./paginas/cadastro.html">CADASTRO</a></strong>
+            <strong><a class="paginas" href="./paginas/servicos.html">SERVIÇOS</a></strong>
+            <strong><a class="paginas login" href="./paginas/login.html">LOGIN</a></strong>
+        </nav>
+    </header>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- item1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url(./img/homepage_carousel_img1.avif) ;">
+                    <div class="container">
+                        <p class="carousel_title">Primeira vez aqui ?</p>
+                        <p class="carousel_subtitle"> Então venha fazer o seu cadastro em nosso site para desfrutar de
+                            todas as nossas ferramentas que temos para você criar o melhor site de todos! De forma
+                            rápida segura.</p>
+                        <a href="./paginas/cadastro.html"><button type="button"
+                                class="btn btn-dark">Cadastre-se!</button></a>
+                        </a>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="carousel-item" style="background-image:url(./img/homepage_carousel_img2.avif) ;">
+                    <div class="container">
+                        <p class="carousel_title">Nossos funcionários</p>
+                        <p class="carousel_subtitle"> Nessa seção vocês podem conhecer mais sobre os funcionários da
+                            empresa FrontEnders. Entem em contato conosco!</p>
+                        <a href="./paginas/contato.html"><button type="button" class="btn btn-dark">Clique
+                                Aqui!</button></a>
+                        </a>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="carousel-item" style="background-image:url(./img/homepage_carousel_img3.avif) ;">
+                    <div class="container">
+                        <p class="carousel_title">Pacotes</p>
+                        <p class="carousel_subtitle"> Além da versão gratuita do nosso software, nós temos vários tipos
+                            de pacotes para contratação para a sua empresa. Com extrema diversidade de
+                            templates, suporte para eCommerce, domínio grátis e muito mais.</p>
+                        <a href="./paginas/servicos.html"><button type="button" class="btn btn-dark">Conheça Nossos
+                                Planos.</button></a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">Previus</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="sr-only">Previus</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!-- fim carousel -->
+
+        <!-- page part-1 -->
+        <div id="content_part1">
+            <div id="part1">
+                <p id="text_title">Faça sites complexos e interessantes de forma prática e simples.</p>
+                <p class="text_subtitle">Basta adicionar texto, arrastar e soltar suas próprias fotos, vídeos e mais.
+                    Seu site funcionará automaticamente em computadores e dispositivos móveis.</p>
+            </div>
+            <div>
+                <img src="./img/page_part1.avif" id="image_1">
+            </div>
+
+        </div>
+        <!-- Fim page part-1 -->
+
+        <!-- page part-2 -->
+
+        <div id="content_part2">
+            <div id="part2">
+                <p class="text_subtitle">TECNOLOGIA PARA TODOS</p>
+                <p id="text_title_2">Tudo sem a necessidade de escrever uma linha de código.</p>
+                <p class="text_subtitle">Na FrontEnders Não é preciso ter habilidades de programação. Com nosso software
+                    intuitivo e seus layouts responsivos você conseguirá criar o seu web site personalizado.</p>
+                <img src="./img/homepage_icon.svg" id="homepage_part2_icon">
+            </div>
+            <div>
+                <img src="./img/page_part2.avif" id="image_2">
+            </div>
+        </div>
+
+        <!-- Fim page part-2 -->
+
+        <!-- page part-3 -->
+
+        <div id="content_part3">
+            <div>
+                <p id="partner_title">Nossos Partners:</p>
+                <img src="./img/homepage_icon2.svg" id="homepage_part3_icon">
+            </div>
+            <div>
+                <img src="./img/img_partner1.png" class="partners">
+                <img src="./img/img_partner2.png" class="partners">
+                <img src="./img/img_partner3.png" class="partners">
+                <img src="./img/img_partner4.png" class="partners">
+                <img src="./img/img_partner5.png" class="partners">
+                <img src="./img/img_partner6.png" class="partners">
+            </div>
+        </div>
+        <!-- Fim page part-3 -->
+    </main>
+    <!-- rodape do site, com links para contato -->
+    <footer id="rodape">
+        <div id="icones">
+            <a href="https://www.linkedin.com/home" target="_blank"><img src="./img/linkedin1.png" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram1.png"></a>
+            <a href="https://accounts.google.com/login/signinchooser?hl=pt-br&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                target="_blank"><img src="./img/gmail1.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="./img/youtube1.png" alt=""></a>
+            <a href="https://discord.com/" target="_blank"><img src="./img/discord.png" alt=""></a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+            target="_blank"><img src="./img/twitter.png"><a>
+        </div>
+        <div>
+            <p>© 2022 - Todos os direitos reservados. Conteúdo licenciado - FrontEnders</p>
+        </div>
+        <div id="colaboradores">
+            <img src="./img/images.png">
+            <a href="./paginas/contato.html" id="linkColaborador">Colaboradores</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

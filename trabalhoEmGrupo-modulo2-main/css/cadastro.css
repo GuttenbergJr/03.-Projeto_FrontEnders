@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*aqui começa o cabelho  */
+
+
+/* movendo meu header */
+#cabecalho {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* alinhando a logo */
+#logo {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+/* texto da logo */
+#frontenders {
+    font-size: 39px;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* tamanho da imagem */
+#imgFront {
+    height: 80px;
+}
+
+/* estilizando os links */
+.paginas {
+    padding-right: 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+.paginas:hover {
+    text-decoration: underline;
+}
+
+/* centralizando e prendendo o footer no final da pagina */
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid black;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+}
+
+/* estilização do h2 */
+#rodape,
+h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#rodape, a{
+    text-decoration: none;
+}
+
+/* tamanho das imagens */
+#icones,
+img {
+    height: 30px;
+
+}
+
+#colaboradores{
+    display: flex;
+}
+
+#linkColaborador{
+    color: black;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+
+/* aqui termina o rodade */
+
+
+
+/* Inicio do form */
+
+/* seção da imagem e do texto */
+
+/* definindo a cor do main, para dar o um efeito maneiro no border radius do form */
+main{
+    background-color: black;
+}
+
+/* Centralizando minha div com a imagem e o texto */
+#container1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+
+}
+
+
+/* tamanho da imagem */
+#imagem {
+    margin-left: 20px;
+    height: 550px;
+    width: 550px;
+}
+
+/* Descolando o texto da imagem */
+#texto{
+     text-indent: 50px;
+}
+
+
+#texto,
+h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+                            /* tamanho dos textos */
+#texto,
+h2 {
+    font-size: 23px;
+}
+
+/* fim seção 1*/
+
+
+
+/* inicio da seção do formulário*/
+
+/* Localizando os containers filhos */
+#container2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Parte esquerda onde vai ficar os serviços */
+#textoForm {
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 600px;
+}
+
+/* Estilização do formulário */
+#form {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+}
+
+form div + div {
+    margin-top: 20px;
+}
+
+fieldset{
+    box-shadow: 10px 5px 3px 1px #cccccc;
+    border-radius: 60px;
+    padding: 50px;
+    border: none;
+}
+
+
+legend{
+    font-size: 40px;
+}
+
+
+label {
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.inputText{
+    margin-left: 10px;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 25px;
+    width: 220px;
+
+}
+
+
+.inputRadio{
+    margin-left: 10px;
+}
+
+.inputRadio:hover{
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.600);
+}
+
+
+
+form,
+a {
+    margin-top: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+#button{
+
+    display: flex;
+    justify-content: end;
+    
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 35px;
+    width: 165px;
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+}
+
+
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 5px #b1b1b1;
+    transform: translateY(4px);
+  }
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   font-size: 30px;
+}
+
+
+#deluxe{
+    margin-top: 15px;
+}
