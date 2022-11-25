@@ -4,7 +4,7 @@
  
 <h2>Finalidade do site</h2>
 
-- Em base de uma empresa fictícia chamada FrontEnders, criamos um site para vender nosso serviço de criação de sites, a ideia é que temos uma ferramenta onde você consegue criar todo o layout na base do Drag and Drop (não é funcional), sem nenhum conhecimento prévio de programação e design.
+- Em base de uma empresa fictícia chamada FrontEnders, criamos um site para vender nosso serviço de criação de sites. A ideia principal é que oferecemos uma ferramenta onde você consegue criar todo o layout na base do Drag and Drop (não é funcional), sem nenhum conhecimento prévio de programação e design.
 
 - Para acessar o site é só baixar e abrir o arquivo index, ou clicando pelo link oferecido no final desse README. No site usamos HTML como base para todos os arquivos, CSS para estilizar as páginas e JS para fazer a validação dos formulários e a ativação da API. Também utilizamos Bootstrap para o carrossel da página HOME, e achamos uma aplicação limitada, mas útil, e dai que surgiu a ideia para o nosso serviço.
 
