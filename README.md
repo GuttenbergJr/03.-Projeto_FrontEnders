@@ -1,6 +1,6 @@
 # Trabalho em grupo para o segundo módulo.
 
-<h1> ➔ Projeto FrontEnders</h1>
+<h1> ⇢ Projeto FrontEnders</h1>
  
 <h2>Finalidade do site</h2>
 
@@ -10,7 +10,7 @@
 
 <br>
 
-<h2>♟️Nosso Grupo</h2>
+<h2>♟️  Nosso Grupo</h2>
 <li>@KesleyMelchior - https://github.com/KesleyMelchior</li>
 <li>@Davidsilvabaptista - https://github.com/Davidsilvabaptista</li>
 <li>@erickvieira170 - https://github.com/erickvieira170</li>
@@ -18,7 +18,7 @@
 <li>@Hoptavio - https://github.com/Hoptavio</li>
 <li>@Bryhnu - https://github.com/Bryhnu</li>
 
-<h2>💻 O que foi utilizado</h2>
+<h2>💻  O que foi utilizado</h2>
 <li>Html5</li>
 <li>CSS</li>
 <li>JavaScript</li>
@@ -27,11 +27,18 @@
 
 <br>
 <br>
-<br>
+
+ <h2>Breve resumo do nosso site   ⇣</h2> 
+ 
+ <br>
+ <br>
 
 ![Part1](https://user-images.githubusercontent.com/114154174/204040568-7afd657f-b3ad-4ce8-ac98-c7c5a00aecc3.jpg)
 ![part2](https://user-images.githubusercontent.com/114154174/204040569-4ecab693-7365-4672-9490-e48a9dcab718.jpg)
 ![part3](https://user-images.githubusercontent.com/114154174/204040572-abaf140e-9bb3-4121-8a05-f998dfff1748.jpg)
 ![part4](https://user-images.githubusercontent.com/114154174/204040576-9e156163-53d8-4b2b-8ed4-e244f147a5ba.jpg)
+
 <br>
-Link para acessar o site! - https://bryhnu.github.io/trabalhoEmGrupo-modulo2/index.html 
+
+<h2>Link para acessar o site!</h2>
+⇢  https://bryhnu.github.io/trabalhoEmGrupo-modulo2/index.html 
