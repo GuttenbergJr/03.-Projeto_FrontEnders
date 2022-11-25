@@ -1,6 +1,6 @@
 # trabalhoEmGrupo-modulo2
 
-
+https://bryhnu.github.io/trabalhoEmGrupo-modulo2/index.html
 
 ![Part1](https://user-images.githubusercontent.com/114154174/204040568-7afd657f-b3ad-4ce8-ac98-c7c5a00aecc3.jpg)
 ![part2](https://user-images.githubusercontent.com/114154174/204040569-4ecab693-7365-4672-9490-e48a9dcab718.jpg)
