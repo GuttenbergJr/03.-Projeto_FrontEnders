@@ -24,32 +24,38 @@
 
 /* alinhando a logo */
 #logo {
-    margin-left: 100px;
+    margin-left: 60px;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
-#logo, a{
+/* texto da logo */
+#frontenders {
+    font-size: 39px;
     text-decoration: none;
     color: black;
+
 }
 
 /* tamanho da imagem */
-#logo,
-img {
-    height: 100px;
+#imgFront {
+    height: 80px;
 }
 
 /* estilizando os links */
 .paginas {
-    margin-right: 100px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 26px;
 }
 
+.paginas:hover {
+    color: black;
+    text-decoration: underline;
+}
 
 /* centralizando e prendendo o footer no final da pagina */
 #rodape {
@@ -66,10 +72,13 @@ img {
 /* estilização do h2 */
 #rodape,
 h2 {
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
+}
 
+#rodape, a{
+    text-decoration: none;
 }
 
 /* tamanho das imagens */
@@ -78,6 +87,17 @@ img {
     height: 30px;
 
 }
+
+#colaboradores{
+    display: flex;
+}
+
+#linkColaborador{
+    color: black;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
 
 /* aqui termina o rodade */
 
