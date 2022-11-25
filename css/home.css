@@ -144,15 +144,15 @@ img {
 
     /* Primeira parte da page */
 #content_part1{
-    height: 75vh;
+    height: 120vh;
     background-color: black;
 }
 
 #part1{
     display:block;
     text-align: start;
-    margin-left: 20%;
-    width: 20%;
+    margin-left: 5%;
+    width: 40%;
     height: 60%;
     padding-top: 5%;
     color: white;
@@ -162,8 +162,8 @@ img {
 #image_1{
     width: 700px;
     height: 700px;
-    margin-right: 410px;
-    margin-top: -365px;
+    margin-right: 150px;
+    margin-top: -400px;
     float: right;
 }
 
@@ -191,16 +191,16 @@ img {
 
 #homepage_part2_icon{
     width: auto;
-    height: 300px;
-    margin-left: 70%;
+    height: 200px;
+    margin-left: 10%;
     border-radius: 200%;
 }
 
 #image_2{
     width: 700px;
     height: 700px;
-    margin-right: 300px;
-    margin-top: -500px;
+    margin-right: 100px;
+    margin-top: -400px;
     margin-bottom: 20px;
     float: right;
 }
@@ -225,8 +225,8 @@ img {
 
 #homepage_part3_icon{
     width: auto;
-    height: 220px;
-    margin-left: 200px;
+    height: 150px;
+    margin-left: 150px;
 }
 
 .partners{
@@ -235,4 +235,36 @@ img {
     margin-top: 7%;
     margin-left: 5%;
     margin-bottom: -5%;    
+}
+
+#partners_caixa{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: -2%; 
+}
+
+#partners_curso_em_video{
+    width: 20vw;
+    height: 13vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: -2%;
+}
+
+#partners_netflix{
+    width: 20vw;
+    height: 15vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: -2%;
+}
+
+#partners_backEnders{
+    width: 20vw;
+    height: 17vh;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: -2%;
 }
