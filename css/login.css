@@ -224,6 +224,7 @@ button:hover{
 }
 
 .ajuda, a{
+    text-decoration: underline;
     color: black;
 }
 
