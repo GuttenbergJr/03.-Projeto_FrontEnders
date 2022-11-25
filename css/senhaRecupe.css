@@ -54,6 +54,7 @@
 
 .paginas:hover {
     text-decoration: underline;
+    color: black;
 }
 
 /* centralizando e prendendo o footer no final da pagina */

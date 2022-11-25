@@ -109,7 +109,7 @@ img {
     position: relative;
     background-position: center;
     background-size: cover;
-}
+}s
 .container{
     position: absolute;
     bottom: 0;
@@ -120,6 +120,7 @@ img {
 
 .carousel_title{
     font-size: 100px;
+    text-align: center;
     color: white;
 }
 

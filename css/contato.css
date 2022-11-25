@@ -277,8 +277,6 @@ h1 {
 
 button {
     background-color: transparent;
-    text-align: center;
-    width: 400px;
     border-color: gray;
     padding: 7px;
     font-weight: bold;
@@ -288,6 +286,8 @@ button {
     cursor: pointer;
     outline: none;
     transition: all .4s ease-out;
+    width: 100%;
+
 }
 
 button:hover {
@@ -299,7 +299,6 @@ button:hover {
 .justify-center:hover {
     display: flex;
     justify-content: center;
-    width: 350px;
 }
 
 .caixademensagem1 {
