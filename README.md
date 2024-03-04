@@ -1,6 +1,4 @@
-# Trabalho em grupo para o segundo módulo.
-
-<h1> ⇢ Projeto FrontEnders</h1>
+<h1> ⇢ FrontEnders</h1>
  
 <h2>Finalidade do site</h2>
 
